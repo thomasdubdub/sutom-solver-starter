@@ -50,6 +50,8 @@ Pour l'utilisation des algorithmes permettant de déterminer les "meilleurs" pre
 sutom_starter.
 L'ensemble des résultats compilés (les meilleurs mots pour chaque défi) est compilé (notebook compile_score_files) dans le fichier top_words.
 
+![top](top.PNG)
+
 
 ## Built With
 

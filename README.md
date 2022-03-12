@@ -5,6 +5,8 @@ Inspiré du jeu MOTUS (Lingo, Wordle en anglais...), les règles sont simples : 
 de lettres et commençant par une lettre donnée. A la manière du Mastermind, lorsque vous proposez un mot, les lettres bien 
 placées sont indiquées en rouge et celles qui sont dans le mot mystère mais à une autre place sont indiquées en jaune. 
 Les autres lettres restent avec un fond bleu.
+
+
 La petite subtilité vient des lettres répétées. Si vous proposez un mot avec plusieurs lettres identiques, seules les premières
 (de gauche à droite) seront indiquées en jaune. Ainsi dans l'exemple suivant, il y a effectivement un L dans le mot mystère (MINUSCULE)
 mais seul le premier L de MALLETTES est indiqué en jaune. Nous pouvons donc en déduire qu'il y a un seul L dans le mot mystère et à un
@@ -40,7 +42,7 @@ moyen de mots restant.
 
 ## Usage
 
-Le solveur peut être rapidement utilisé, en important la classe DIctionary, cf. exemple ci-dessous.
+Le solveur peut être rapidement utilisé, en important la classe Dictionary, cf. exemple ci-dessous.
 
 ![usage](usage.PNG)
 

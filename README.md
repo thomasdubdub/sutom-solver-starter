@@ -33,7 +33,8 @@ L'objectif présenté dans les autres notebooks est de déterminer les "meilleur
 * en déterminant le nombre moyen de mots restant une fois la réponse à ce premier mot donnée
 
 La deuxième méthode "brute force" consiste ainsi à calculer pour chaque mot du défi (ex : mot à 9 lettres commençant par L) combien il 
-resterait de mots si le mot mystère était un des autres mots du défi. On utilise le solveur à chaque itération pour ajouter le résultat.
+resterait de mots si le mot mystère était un des autres mots du défi. On itère sur chacun des mots mystères possibles pour ajouter le 
+nombre de mots restants.
 En divisant à la fin par le nombre de mots possibles dans le défi (ex : les 1326 mots à 9 lettres commençant par L), on obtient le nombre
 moyen de mots restant.
 
